@@ -166,9 +166,12 @@ Please cite as:
 
 | Chapter | Title                                                   |
 | :---- | :------------------------------------------------         |
-| 1     | [Chapter title](link)                                             |
-| 2     | [Chapter title](link)                                             |
-| 3     | [Chapter title](link)                                             |
+| 1     | [Napari](link)                                            |
+| 2     | [Image IO and Visualization](link)                        |
+| 3     | [Imag Processing](link)                                   |
+| 4     | [Imag Denoising with N2V](link)                           |
+| 5     | [Cell Segmentation with CellPose](link)                   |
+| 5     | [Create a Image Analysis Pipeline](link)                   |
 
 
 # References
