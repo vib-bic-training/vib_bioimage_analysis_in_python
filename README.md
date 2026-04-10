@@ -1,9 +1,9 @@
 <!--
-author:   name last_name
-email:    trainingandconferences@vib.be
-version:  2.0.0
+author:   Pavie Benjamin
+email:    benjamin.pavie@vib.be
+version:  1.0.0
 language: en
-narrator: UK English Female
+narrator: UK English Male
 
 icon:     https://vib.be/sites/vib.sites.vib.be/files/logo_VIB_noTagline.svg
 
@@ -35,30 +35,42 @@ import:   https://raw.githubusercontent.com/vib-tcp/training_material_template/r
 
 <section>
 
-Hello and welcome to our workshop! We are very happy to have you here.
+Hello and welcome to our Bioimage Analysis in Python Course
 
-This is the @edition edition of this workshop, jointly organised by VIB and ELIXIR.
+This is the @edition edition of this workshop, organised by VIB.
 
 > We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript.
 > It is a distributed way of creating and sharing educational content hosted on github.
 > To see this document as an interactive LiaScript rendered version, click on the
-> following link/badge: [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-tcp/training_material_template/main/README.md)
+> following link/badge: [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-bic-training/vib_bioimage_analysis_in_python/main/README.md)
 
 ## General context
 
-This workshop is dedicated to ...
+Microscopy generates complex, multi-dimensional image data that requires efficient analysis to extract meaningful biological insights. This introductory course provides researchers with practical skills for handling and processing microscopy images using Python. 
+
+Participants will learn to visualize, manipulate, and analyze image data using tools such as **Napari**, enabling them to explore 2D and 3D datasets interactively.
+
+The training is designed for early-career scientists and support staff who want to integrate computational approaches into their imaging workflows.
+
+By the end of the session, attendees will be able to perform essential tasks, including **image segmentation**, **metadata handling**, and **quantitative analysis**, laying the foundation for reproducible, automated image processing in research.
 
 ## Proposed Schedule
 
 Schedule day 1:
 
-- 9:30 - 11:00 - session
-- 11:00 - 11:15 - break
-- 11:15 - 12:45 - session
+- 9:30 - 12:30 - Napari
 - 12:45 - 13:45 - lunch
-- 13:45 - 15:15 - session
+- 13:45 - 15:15 - Bio Image Analysis on Notebook
 - 15:15 - 15:30 - break
-- 15:30 - 17:00 - session
+- 15:30 - 17:00 - Bio Image Analysis on Notebook
+
+Schedule day 2:
+
+- 9:30 - 12:30 - Bio Image Analysis on Notebook
+- 12:45 - 13:45 - lunch
+- 13:45 - 15:15 - Bio Image Analysis on Notebook
+- 15:15 - 15:30 - break
+- 15:30 - 17:00 - Bio Image Analysis on Notebook
 
 </section>
 
@@ -73,44 +85,61 @@ Schedule day 1:
 > <i class="fa fa-arrow-left"></i> **Prerequisites**  
 > To be able to follow this course, learners should have knowledge in:
 > 
-> 1. Basic knowlegde of HTML  
-> 2. Basic knowledge of ...
-> 3. Being comfortable working with ....  
+> 1. Understanding of fundamental microscopy concepts
+> 2. Access to computational resources (local installation and Google Colab)
+> 3. Basic knowledge of Python programming and ability to work with Python environments (understanding of syntax, data structures, data handling, and basic plotting. This can be acquired by completing our [Python introduction e-learning](https://elearning.vib.be/courses/gentle-introduction-to-python/).
+
 >
 > <i class="fa fa-bookmark"></i> **Description**  This course consist of .....
 > 
 > <i class="fa fa-arrow-right"></i> **Learning Outcomes:**  
 > By the end of the course, learners will be able to:
 >
-> 1. Define what ..... [Remembering] 
+> 01. Navigate the Napari interface to visualize and interact with multi-dimensional microscopy images.
 >
-> 2. Discuss and explain ..... [Understanding] 
+> 02. Import and export image data using Napari and Python libraries (e.g., bioio, NumPy) while preserving metadata.
 >
-> 3. Apply and modify ..... [Applying] 
+> 03. Apply basic image visualization techniques (e.g., intensity adjustment) within Napari.
 >
-> 4. Compare ..... [Analysing] 
+> 04. Create and manage labels and layers to effectively annotate and organize image data.
 >
-> 5. Evaluate and select ..... [Evaluating] 
+> 05. Install and use Napari plugins to extend functionality for segmentation and analysis tasks.
 >
-> 6. Create and integrate ..... [Creating]
+> 06. Generate simple animations to communicate image analysis results.  
+>
+> 07. Open and manipulate multi-dimensional microscopy images using Bio.io and Numpy.
+>
+> 08. Interpret image metadata to understand acquisition parameters and file structure.
+>
+> 09. Create and validate image files in OME-TIFF format, including metadata for interoperability.
+>
+> 10. Train and apply deep learning denoising models
+>
+> 11. Segment microcopy images using both classical approaches and automated tools (e.g., CellPose) to identify biological objects.
+>
+> 12. Compute and plot quantitative descriptors (e.g., intensity histograms, object counts) for segmented images to support data analysis. 
 >
 >> Check more about [Bloom's taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) to categorize the levels in educational goals
 >
-> <i class="fa fa-hourglass"></i> **Time estimation**: 120 minutes
+> <i class="fa fa-hourglass"></i> **Time estimation**: 12 hours
 >
-> <i class="fa fa-asterisk"></i> **Requirements:** The (technical) installation requirements are described in the [installations](https://vibbits-nextflow-workshop.readthedocs.io/en/latest/installations.html) section.
+> <i class="fa fa-asterisk"></i> **Requirements:** The (technical) installation requirements are described in the [installations]() section.
 >
 > <i class="fa fa-envelope-open-text"></i> **Supporting Materials**:
 > 
 > 1. [Exercises and solutions](link)
-> 2. [Slides](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-tcp/training_material_template/refs/heads/main/supplementary/chapter_01_presentation.md)  
+> 2. [Slides](link)  
 > 
 > <i class="fa fa-life-ring"></i> **Acknowledgement**:
 >
-> * [ELIXIR Belgium](https://www.elixir-belgium.org/)
 > * [VIB Technologies](https://www.vib.be/)
+> * Benjamin Pavie
+> * Nicolas Peredo
+> * Tatiana Woller
 >
-> <i class="fa fa-money-bill"></i> **Funding:** This project has received funding from the ELIXIR Programme 2022-2023.
+> * [Laboratory of Cell Biology and Histology ](https://www.uantwerpen.be/en/research-groups/celw/)
+>
+> <i class="fa fa-money-bill"></i> **Funding:**
 >
 > <i class="fa fa-anchor"></i> **PURL**:  
 
@@ -119,14 +148,12 @@ Schedule day 1:
 
 Authors
 
-- @[orcid(Paulo Czarnewski)](http://orcid.org/0000-0001-8150-4021)
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
+- @[orcid(Benjamin Pavie)](https://orcid.org/0000-0002-0249-3844)
 
 Contributors
-
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
-- @[orcid(Name)](http://orcid.org/0000-0000-0000-0000)
+- @[orcid(Nicolas Peredo)](https://orcid.org/0000-0002-4670-3700)
+- @[orcid(Tim Van De Looverbosch)](https://orcid.org/0000-0002-3065-1395)
+- @[orcid(Tatiana Woller)](https://orcid.org/0000-0002-6958-6498)
 
 
 ## Citing this lesson
@@ -139,7 +166,6 @@ Please cite as:
 
 | Chapter | Title                                                   |
 | :---- | :------------------------------------------------         |
-| 0     | [Get ready for the course, instalation and pre-reading](link) |
 | 1     | [Chapter title](link)                                             |
 | 2     | [Chapter title](link)                                             |
 | 3     | [Chapter title](link)                                             |
@@ -149,25 +175,15 @@ Please cite as:
 
 Here are some great tips for learning and to get inspired for writing your own pipelines:
 
-- Nextflow's official documentation ([link](https://www.nextflow.io/docs/latest/index.html))
-- Reach out to the community on Slack ([link](https://www.nextflow.io/slack-invite.html))
-- Curated collection of patterns ([link](https://github.com/nextflow-io/patterns))
-- Workshop focused on DSL2 developed by CRG Bioinformatics Core ([link](https://github.com/biocorecrg/ELIXIR_containers_nextflow))
-- Tutorial exercises (DSL1) developed by Seqera ([link](https://github.com/seqeralabs/nextflow-tutorial))
-- Curated ready-to-use analysis pipelines by NF-core ([link](https://nf-co.re/))
-- Model example pipeline on Variant Calling Analysis with NGS RNA-Seq data developed by CRG ([link](https://github.com/CRG-CNAG/CalliNGS-NF))
-- Tutorial by Andrew Severin ([link](https://bioinformaticsworkbook.org/dataAnalysis/nextflow/02_creatingAworkflow.html#gsc.tab=0))
-- Nextflow community basic training ([link](https://training.nextflow.io/basic_training/))
+- Bioio Documentation([link](https://bioio-devs.github.io/bioio/)) - Library to opne multiple microsocpy file format
+- CAREamics Documentation([link](https://careamics.github.io/)) - Library for image restoration deep-learning algorithms
+- Cellpose Documentation([link](https://cellpose.readthedocs.io/)) - Anatomical segmentation algorithm
+- Scikit-Image Documentation([link](https://scikit-image.org/)) - collection of algorithms for image processing.
+- Image.sc Forum ([link](https://forum.image.sc/)) - Active community for bioimage analysis
+- BioImage Model Zoo ([link](https://bioimage.io/)) - Pre-trained models and resources
+- Napari ([link](https://napari.org/)) - N-dimensional image viewer
 
 # About us
-
-*About ELIXIR Training Platform*
-
-The ELIXIR Training Platform was established to develop a training community that spans all ELIXIR member states (see the list of Training Coordinators). It aims to strengthen national training programmes, grow bioinformatics training capacity and competence across Europe, and empower researchers to use ELIXIR's services and tools.
-
-One service offered by the Training Platform is TeSS, the training registry for the ELIXIR community. Together with ELIXIR France and ELIXIR Slovenia, VIB as lead node for ELIXIR Belgium is engaged in consolidating quality and impact of the TeSS training resources (2022-23) (https://elixir-europe.org/internal-projects/commissioned-services/2022-trp3).
-
-The Training eSupport System was developed to help trainees, trainers and their institutions to have a one-stop shop where they can share and find information about training and events, including training material. This way we can create a catalogue that can be shared within the community. How it works is what we are going to find out in this course.
 
 *About VIB and VIB Technologies*
 
@@ -181,9 +197,9 @@ The goal of VIB Technology Training is to up-skill life scientists to excel in t
 
 *Editorial team for this course*
 
-Authors: @[orcid(Alexander Botzki)](https://orcid.org/0000-0001-6691-4233), @[orcid(Bruna Piereck)](https://orcid.org/0000-0001-5958-0669)
+Authors: @[orcid(Benjamin Pavie)](https://orcid.org/0000-0002-0249-3844)
 
-Technical Editors: Alexander Botzki
+Technical Editors: Benjamin Pavie
 
 License: [![CC BY SA](img/picture003.jpg)](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
@@ -215,29 +231,21 @@ License: [![CC BY SA](img/picture003.jpg)](https://creativecommons.org/licenses/
   "author": [
     {
       "@type": "Person",
-      "name": "Bruna Piereck"
+      "name": "Benjamin Pavie"
     },
-    {
-      "@type": "Person",
-      "name": "Olivier Sand"
-    },
-    {
-      "@type": "Person",
-      "name": "Alexander Botzki"
-    }
   ],
   "contributor": [
     {
       "@type": "Person",
-      "name": "Yasmine Maes"
+      "name": "Tatiana Woller"
     },
     {
       "@type": "Person",
-      "name": "Finn Bacall"
+      "name": "Tim Van De Looverbosch "
     },
     {
       "@type": "Person",
-      "name": "Munazah Andrabi"
+      "name": "Nicolas Peredo"
     }
   ]
 }
