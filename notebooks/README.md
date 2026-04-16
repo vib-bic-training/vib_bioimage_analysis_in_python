@@ -3,6 +3,10 @@
 
 ## Notebook Structure 
 
+### 0. [Google Colab](https://colab.research.google.com/github/vib-bic-training/vib_bioimage_analysis_in_python/blob/main/notebooks/00_google-colab.ipynb)
+**Learning Objectives:**
+- Know how to use Google Colab for running Python code in the cloud
+
 ### 1. [Image I/O and Visualization](https://colab.research.google.com/github/vib-bic-training/vib_bioimage_analysis_in_python/blob/main/notebooks/01_image-io-and-visualization.ipynb)
 **Learning Objectives:**
 - Master file I/O operations for various microscopy formats
