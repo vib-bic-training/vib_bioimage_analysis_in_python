@@ -3,7 +3,7 @@
 
 ## Notebook Structure 
 
-### 1. [Image I/O and Visualization](https://colab.research.google.com/github/DeVosLab/vib-bic-training/vib_bioimage_analysis_in_python/blob/main/notebooks/01_image-io-and-visualization.ipynb)
+### 1. [Image I/O and Visualization](https://colab.research.google.com/github/vib-bic-training/vib_bioimage_analysis_in_python/blob/main/notebooks/01_image-io-and-visualization.ipynb)
 **Learning Objectives:**
 - Master file I/O operations for various microscopy formats
 - Understand image metadata and pixel size information
@@ -26,7 +26,7 @@
 - Rely mutiple structure (nuclei, cell etc...)
 - Extract features from segmented objects (shape and intensity)
 
-### 5. [Intro to Image Processing](https://colab.research.google.com/github/github/vib-bic-training/vib_bioimage_analysis_in_python/blob/main/notebooks/05_image_processing_with_dask.ipynb)
+### 5. [Intro to Image Processing](https://colab.research.google.com/github/vib-bic-training/vib_bioimage_analysis_in_python/blob/main/notebooks/05_image_processing_with_dask.ipynb)
 **Learning Objectives:**
 - See how dask array could be used instead of numpy array to process images in chunk for (potentially) large images
 - Filter, create mask and label object on chunk
