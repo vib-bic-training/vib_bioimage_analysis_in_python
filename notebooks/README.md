@@ -69,22 +69,27 @@ Once you have a notebook open, the first thing to do is to save a copy of it on 
 <img width="740" height="315" alt="colab_copy" src="https://github.com/user-attachments/assets/46524766-e40d-471b-a406-466adaa49603" />
 
 
-**Connect to a Python runtime**
+#### 1- Connect to a Python runtime
 
-Once you have a copy of the notebook on your Google Drive, you can connect it up to a Python runtime. This is done by clicking the "Connect" button in the top right corner of the notebook. This will connect the notebook to a Python runtime, which is a virtual environment that contains the Python interpreter and the libraries that you will need to run your code.
+Once you have a copy of the notebook on your Google Drive, you can connect it up to a Python runtime.
+
+#### 2- Use a **non-GPU** runtime
+
+This is done by clicking the "Connect" button in the top right corner of the notebook. This will connect the notebook to a Python runtime, which is a virtual environment that contains the Python interpreter and the libraries that you will need to run your code.
 
 <img width="740" height="315" alt="colab_connect" src="https://github.com/user-attachments/assets/f2508dd7-eaa8-4275-8151-a4f96c284f76" />
 
-If you need a GPU, click on Change run time and select a GPU
+#### 2- Use a **GPU** runtime
 
+If you need a GPU, click on Change run time<br/>
 <img width="361" height="112" alt="image" src="https://github.com/user-attachments/assets/3ca89807-b394-408b-aaa8-68d59d438d63" />
 
 <br/>
-
+ and select a GPU<br/>
 
 <img width="559" height="515" alt="colab_change_runtime_type_gpu" src="https://github.com/user-attachments/assets/204c3833-7bb7-4110-a6fb-139414fd2b6a" />
 
 
-**Run the notebook**
+#### 3- Run the notebook**
 
 A Colab notebook is composed of cells, which can contain code, text, or even images. You can run the notebook entirely by clicking the "Run" button in the top right corner of the notebook. This will execute all the code from start to finish. However, you can also run it cell by cell, or interrupt it if needed without it losing its state. With state, we mean that the notebook will remember the variables and functions that were defined since the last code block was executed.
