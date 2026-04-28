@@ -1,0 +1,18 @@
+name: bioimage-training
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:    
+    - --extra-index-url  https://download.pytorch.org/whl/cu118
+    - torch
+    - torchvision
+    - bioio==3.3.0
+    - bioio-czi==2.6.1
+    - bioio-ome-tiff==1.4.0
+    - bioio-ome-zarr==3.3.0
+    - cellpose==4.0.7
+    - stackview==0.16.0
+    - ipycanvas==0.11
+
