@@ -114,7 +114,7 @@ Schedule day 2:
 >
 > 10. Train and apply deep learning denoising models
 >
-> 11. Segment microcopy images using both classical approaches and automated tools (e.g., CellPose) to identify biological objects.
+> 11. Segment microscopy images using both classical approaches and automated tools (e.g., CellPose) to identify biological objects.
 >
 > 12. Compute and plot quantitative descriptors (e.g., intensity histograms, object counts) for segmented images to support data analysis. 
 >
@@ -126,7 +126,7 @@ Schedule day 2:
 > <i class="fa fa-envelope-open-text"></i> **Supporting Materials**:
 > 
 > 1. [Napari Slides](https://github.com/vib-bic-training/vib_bioimage_analysis_in_python/blob/main/docs/presentations/01_napari.pdf) 
-> 2. [BioImage Analysis Jupyter Notebooks](link) 
+> 2. [BioImage Analysis Jupyter Notebooks](https://github.com/vib-bic-training/vib_bioimage_analysis_in_python/tree/main/notebooks) 
 > 
 > <i class="fa fa-life-ring"></i> **Acknowledgement**:
 >
