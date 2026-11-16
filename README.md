@@ -8,7 +8,7 @@ narrator: UK English Male
 icon:     https://vib.be/sites/vib.sites.vib.be/files/logo_VIB_noTagline.svg
 
 comment:  This document shall provide an entire compendium and course on the
-          development of Open-courSes with [LiaScript](https://LiaScript.github.io).
+          development of Open-courses with [LiaScript](https://LiaScript.github.io).
           As the language and the systems grows, also this document will be updated.
           Feel free to fork or copy it, translations are very welcome...
 
@@ -24,7 +24,7 @@ link:     https://fonts.googleapis.com/css2?family=Open+Sans&display=swap
 link:  https://raw.githubusercontent.com/vib-tcp/material-liascript/master/vib-styles.css
 
 @edition:  1st 
-@CourseTitle: replace by course title
+@CourseTitle: Bioimage Analysis in Python Course
 
 import:   https://raw.githubusercontent.com/vib-tcp/training_material_template/refs/heads/main/macro.md
 
@@ -36,7 +36,7 @@ import:   https://raw.githubusercontent.com/vib-tcp/training_material_template/r
 
 Hello and Welcome to our Bioimage Analysis in Python Course
 
-This is the @edition edition of this workshop, organised by VIB.
+This is the @edition edition of this workshop, organized by VIB.
 
 > We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript.
 > It is a distributed way of creating and sharing educational content hosted on github.
