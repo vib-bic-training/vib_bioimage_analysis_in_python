@@ -17,7 +17,6 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
 link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
-link:     https://raw.githubusercontent.com/vib-tcp/material-liascript/master/img/org.css
 link:     https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css
 link:     https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap
 link:     https://fonts.googleapis.com/css2?family=Open+Sans&display=swap
@@ -35,7 +34,7 @@ import:   https://raw.githubusercontent.com/vib-tcp/training_material_template/r
 
 <section>
 
-Hello and welcome to our Bioimage Analysis in Python Course
+Hello and Welcome to our Bioimage Analysis in Python Course
 
 This is the @edition edition of this workshop, organised by VIB.
 
@@ -60,17 +59,17 @@ Schedule day 1:
 
 - 9:30 - 12:30 - Napari
 - 12:45 - 13:45 - lunch
-- 13:45 - 15:15 - Bio Image Analysis on Notebook
+- 13:45 - 15:15 - Bio Image Analysis (BIA) on Notebooks : I/O and visualization of images
 - 15:15 - 15:30 - break
-- 15:30 - 17:00 - Bio Image Analysis on Notebook
+- 15:30 - 17:00 - BIA on Notebook: Fundamental in Image Processing
 
 Schedule day 2:
 
-- 9:30 - 12:30 - Bio Image Analysis on Notebook
+- 9:30 - 12:30 - BIA on Notebook: Denosing using N2V2
 - 12:45 - 13:45 - lunch
-- 13:45 - 15:15 - Bio Image Analysis on Notebook
+- 13:45 - 15:15 - BIA on Notebook: Cell Segmentation using CellPose-SAM
 - 15:15 - 15:30 - break
-- 15:30 - 17:00 - Bio Image Analysis on Notebook
+- 15:30 - 17:00 - BIA on Notebook: Process large image using dask
 
 </section>
 
@@ -78,7 +77,7 @@ Schedule day 2:
 
 > <i class="fa fa-lock"></i> **License:** [Creative Commons Attribution 4.0 International  License](https://creativecommons.org/licenses/by/4.0/deed.en)
 >
-> <i class="fa fa-user"></i> **Target Audience:** Researchers, trainers, training providers
+> <i class="fa fa-user"></i> **Target Audience:** Researchers, PhD, Post_Doc
 >
 > <svg xmlns="http://www.w3.org/2000/svg" height="14" width="16" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M384 64c0-17.7 14.3-32 32-32H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448v96c0 17.7-14.3 32-32 32H320v96c0 17.7-14.3 32-32 32H192v96c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h96V320c0-17.7 14.3-32 32-32h96V192c0-17.7 14.3-32 32-32h96V64z"/></svg> **Level:** Beginner  
 >
@@ -119,28 +118,25 @@ Schedule day 2:
 >
 > 12. Compute and plot quantitative descriptors (e.g., intensity histograms, object counts) for segmented images to support data analysis. 
 >
->> Check more about [Bloom's taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) to categorize the levels in educational goals
 >
-> <i class="fa fa-hourglass"></i> **Time estimation**: 12 hours
+> <i class="fa fa-hourglass"></i> **Time estimation**: 2x8 hours
 >
 > <i class="fa fa-asterisk"></i> **Requirements:** The (technical) installation requirements are described in the [installations]() section.
 >
 > <i class="fa fa-envelope-open-text"></i> **Supporting Materials**:
 > 
-> 1. [Exercises and solutions](link)
-> 2. [Slides](link)  
+> 1. [Napari Slides](https://github.com/vib-bic-training/vib_bioimage_analysis_in_python/blob/main/docs/presentations/01_napari.pdf) 
+> 2. [BioImage Analysis Jupyter Notebooks](link) 
 > 
 > <i class="fa fa-life-ring"></i> **Acknowledgement**:
 >
 > * [VIB Technologies](https://www.vib.be/)
-> * Benjamin Pavie
-> * Nicolas Peredo
-> * Tatiana Woller
 >
 > * [Laboratory of Cell Biology and Histology ](https://www.uantwerpen.be/en/research-groups/celw/)
 >
 > <i class="fa fa-money-bill"></i> **Funding:**
->
+> VIB 
+> 
 > <i class="fa fa-anchor"></i> **PURL**:  
 
 
@@ -171,7 +167,7 @@ Please cite as:
 | 3     | [Imag Processing](link)                                   |
 | 4     | [Imag Denoising with N2V](link)                           |
 | 5     | [Cell Segmentation with CellPose](link)                   |
-| 5     | [Create a Image Analysis Pipeline](link)                   |
+| 5     | [Create a Image Analysis Pipeline](link)                  |
 
 
 # References
@@ -215,16 +211,14 @@ License: [![CC BY SA](img/picture003.jpg)](https://creativecommons.org/licenses/
     "@type": "CreativeWork",
     "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
   },
-  "description": "TeSS, how can I help you? This is our interactive hands-on course about efficient use of the ELIXIR TeSS platform.",
-  "keywords": "FAIR, OPEN, Bioinformatics, Teaching, TeSS",
-  "name": "TeSS, how can I help you?",
+  "description": "Bioimage Analysis in Python Course, napari overview and python usage to open, denoise, segment and visualize microscopy images.",
+  "keywords": "BioImage, BIA, Bio-Image Analysis, Napari, Python, Bioio, N2V2, CellPose, CellPose-SAM, ome-zarr, dask, scikit-image",
+  "name": "Bioimage Analysis in Python Course",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "educationalLevel": "beginner",
-  "competencyRequired": "none",
+  "competencyRequired": "python","Understanding of fundamental microscopy concepts"
   "teaches": [
-    "search events and material in TeSS via direct and faceted search",
-    "add manually and automatically events and material to TeSS",
-    "extract events and material from TeSS by using TeSS widgets"
+    "basic usage of napari", "open microscopy images with bioio", "image segmentation", "metadata handling", "quantitative analysis", "processing large data"
   ],
   "audience": "training providers",
   "inLanguage": "en-US",
@@ -253,11 +247,6 @@ License: [![CC BY SA](img/picture003.jpg)](https://creativecommons.org/licenses/
   ]
 }
 ```
-
-
-
-
-
 
 
 
