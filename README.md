@@ -31,7 +31,7 @@ import:   https://raw.githubusercontent.com/vib-tcp/training_material_template/r
 
 -->
 
-# @Bioimage Analysis in Python
+# Bioimage Analysis in Python
 
 <section>
 
